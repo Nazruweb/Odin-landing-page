@@ -2,6 +2,10 @@
 
 This is my code for the Landing Page project in The Odin Project Foundations course.
 
+[**Live preview**](https://nazruweb.github.io/Odin-landing-page/)
+
+---
+
 ## Project Details
 
 The Odin Project provided a webpage design that I needed to clone using HTML and CSS for the desktop. They also provided a style guide for colors and font sizes. The point of this assignment is to create something from scratch and getting various elements in more or less the right position relative to the rest.
