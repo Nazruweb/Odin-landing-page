@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-size: 10px;
+}
+
+.wrapper {
+  background-color: #1f2967;
+  height: 100vh;
+}
+
+.container {
+  width: 120rem;
+  margin: 0 auto;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 5rem;
+  flex-wrap: wrap;
+}
+
+.logo h2 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #f9faf8;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  column-gap: 5rem;
+}
+
+li a {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: #e5e7eb;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  column-gap: 7rem;
+  margin-top: 3rem;
+}
+
+h1 {
+  font-size: 4.8rem;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+}
+
+.hero-left p {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  color: #e5e7eb;
+}
+
+.btn {
+  background-color: #3882f6;
+  padding: 1rem 3rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #f9faf8;
+}
+
+main img {
+  width: 50rem;
+  height: auto;
+}
+
+section {
+  margin: 10rem 0;
+}
+
+h2,
+p {
+  color: #1f2937;
+}
+
+h2 {
+  font-size: 36px;
+  text-align: center;
+}
+
+.images-container p {
+  font-size: 1.8rem;
+  text-align: center;
+}
+.images-container img {
+  height: 35rem;
+  width: auto;
+  display: block;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+
+.images-container {
+  display: flex;
+  margin-top: 10rem;
+  gap: 4rem;
+}
+
+.quotes {
+  background-color: #e5e7eb;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+blockquote {
+  font-size: 36px;
+  color: #1f2937;
+}
+
+.quotes p {
+  text-align: right;
+  font-size: 2.4rem;
+  margin-top: 2rem;
+  font-weight: bold;
+}
+
+.action-container {
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5px;
+  padding: 2rem 0;
+}
+
+.action-container h3 {
+  font-size: 3.6rem;
+}
+
+.action-container p {
+  font-size: 1.8rem;
+  color: #e5e7eb;
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 2px solid #fff;
+  padding: 1rem 4rem;
+  border-radius: 5px;
+  font-size: 2.4rem;
+  color: #f9faf8;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding: 3rem 0;
+}
+
+footer p {
+  color: #f9faf8;
+  font-size: 2rem;
+  text-align: center;
+}
